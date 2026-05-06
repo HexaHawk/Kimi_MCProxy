@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Secrets & local config — NEVER commit these!
+mcp-routes.json
+*.env
+.env.*
+.env
+*.secret
+*.key
+*.token
+*.credential*
+
+# Logs & OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Runtime
+*.pid

@@ -1,0 +1,15 @@
+{
+  "name": "kimi-mcproxy",
+  "version": "1.0.0",
+  "description": "Project-aware MCP router proxy for Kimi Code",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["mcp", "proxy", "kimi", "router"],
+  "author": "HexaHawk",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}

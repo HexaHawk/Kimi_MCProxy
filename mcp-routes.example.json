@@ -1,0 +1,35 @@
+[
+  {
+    "directory": "~/Code/fullstack-app",
+    "mcp": {
+      "fs": {
+        "type": "stdio",
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-filesystem", "~/Code/fullstack-app"]
+      },
+      "git": {
+        "type": "stdio",
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-git"]
+      },
+      "api": {
+        "type": "streamableHttp",
+        "url": "http://127.0.0.1:8787",
+        "enabled": true,
+        "headers": {
+          "Authorization": "Bearer YOUR_TOKEN_HERE"
+        }
+      }
+    }
+  },
+  {
+    "directory": "~/Code/static-site",
+    "mcp": {
+      "fs": {
+        "type": "stdio",
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-filesystem", "~/Code/static-site"]
+      }
+    }
+  }
+]
